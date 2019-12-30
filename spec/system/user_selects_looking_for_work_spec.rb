@@ -10,6 +10,11 @@ RSpec.describe "Looking For Work" do
   end
 
   it "user selects looking for work and autofollows hiring tag" do
+    puts "******"
+    puts tag.text_color_hex
+    puts tag.name
+    puts tag.bg_color_hex
+    puts "******"
     visit "/settings"
     page.check "Looking for work"
     perform_enqueued_jobs do
