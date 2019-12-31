@@ -894,6 +894,8 @@ DEPENDENCIES
   dogstatsd-ruby (~> 4.5)
   doorkeeper (~> 5.2)
   draper (~> 3.1)
+  dry-configurable
+  dry-equalizer
   dry-struct (~> 1.2)
   email_validator (~> 2.0)
   emoji_regex (~> 2.0)
